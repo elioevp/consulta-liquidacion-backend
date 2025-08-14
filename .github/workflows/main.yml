@@ -59,3 +59,5 @@ jobs:
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           package: .
+
+# Triggering a new workflow run after fixing AZURE_CREDENTIALS
